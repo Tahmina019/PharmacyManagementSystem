@@ -21,7 +21,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-cursor:hand;
 }
 .close:hover{
-    -fx-background-color:#ff4d5f;
+    -fx-background-color:#175e3f
 }
 
 .textfield{
@@ -31,4 +31,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-border-radius:4px;
     -fx-font-size:13px;
     -fx-font-family:"Tahoma";
+}
+ .textfield:focused{
+    -fx-border-color:linear-gradient(to bottom right, #449d6b, #633364);
+    -fx-border-width:1.4px;
+}
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom right, #449d6b, #633364);
+    -fx-background-radius:15px;
+    -fx-cursor:hand;
+    -fx-font-size:14px;
+    -fx-text-fill:#fff;
+    -fx-font-family:"Arial";
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom right, #3fb871, #874489);
 }

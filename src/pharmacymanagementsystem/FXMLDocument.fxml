@@ -16,27 +16,27 @@
       <AnchorPane prefHeight="492.0" prefWidth="250.0" styleClass="left-form" stylesheets="@LoginDesign.css">
          <children>
             <FontAwesomeIconView fill="WHITE" glyphName="STETHOSCOPE" layoutX="71.0" layoutY="198.0" selectionFill="#eaeaea" size="10em" text="" />
-            <Label layoutX="33.0" layoutY="239.0" text="Pharmacy Management System">
+            <Label layoutX="33.0" layoutY="239.0" text="Pharmacy Management System" textFill="#f4f3f3">
                <font>
                   <Font name="Tahoma" size="15.0" />
                </font>
             </Label>
-            <AnchorPane layoutX="233.0" layoutY="-0.6" prefHeight="505.0" prefWidth="454.0" styleClass="right-form" stylesheets="@LoginDesign.css" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="-1.0">
+            <AnchorPane layoutX="253.0" prefHeight="505.0" prefWidth="454.0" styleClass="right-form" stylesheets="@LoginDesign.css" AnchorPane.rightAnchor="-7.399999999999977" AnchorPane.topAnchor="0.0">
                <children>
-                  <Label layoutX="140.0" layoutY="102.0" text="Welcome ,Pharmacist!" textFill="#633364">
+                  <Label layoutX="140.0" layoutY="102.0" text="Welcome ,Pharmacist!" textFill="#175c4c">
                      <font>
                         <Font name="Berlin Sans FB" size="25.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="151.0" layoutY="157.0" prefHeight="30.0" prefWidth="220.0" promptText="Username" />
-                  <PasswordField layoutX="151.0" layoutY="204.0" prefHeight="30.0" prefWidth="220.0" promptText="Password" />
-                  <FontAwesomeIconView glyphName="USER_MD" layoutX="233.0" layoutY="83.0" size="6em" />
-                  <Button layoutX="383.0" layoutY="9.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="63.0">
+                  <TextField layoutX="151.0" layoutY="157.0" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <PasswordField layoutX="151.0" layoutY="204.0" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css" />
+                  <FontAwesomeIconView fill="#812f7a" glyphName="USER_MD" layoutX="227.0" layoutY="83.0" size="6em" />
+                  <Button layoutX="383.0" layoutY="9.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="63.0" styleClass="close" stylesheets="@LoginDesign.css">
                      <graphic>
                         <FontAwesomeIconView glyphName="CLOSE" size="1.2em" text="" />
                      </graphic>
                   </Button>
-                  <Button layoutX="151.0" layoutY="273.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" text="Login" />
+                  <Button layoutX="151.0" layoutY="275.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Login" />
                </children>
             </AnchorPane>
          </children>
